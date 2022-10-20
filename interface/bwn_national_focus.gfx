@@ -1,14 +1,14 @@
 spriteTypes = {
 	spriteType = {
     	name = GFX_bwn_focus_icon_Address_the_school
-		texturefile = gfx/national_focus/bwn/focus_hol_the_foundations_of_defense.dds
+		texturefile = gfx/national_focus/bwn/bwn_focus_icon_Address_the_school.dds
 	}
 	spriteType = {
 		name = GFX_bwn_focus_icon_Address_the_school_shine
-		texturefile = gfx/national_focus/bwn/focus_hol_the_foundations_of_defense.dds
+		texturefile = gfx/national_focus/bwn/bwn_focus_icon_Address_the_school.dds
 		effectFile = gfx/FX/buttonstate.lua
 		animation = {
-			animationmaskfile = gfx/national_focus/bwn/focus_hol_the_foundations_of_defense.dds
+			animationmaskfile = gfx/national_focus/bwn/bwn_focus_icon_Address_the_school.dds
 			animationtexturefile = gfx/interface/goals/shine_overlay.dds    # <- the animated file
 			animationrotation = -90.0        # -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no            # yes or no ;)
@@ -20,7 +20,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = gfx/national_focus/bwn/focus_hol_the_foundations_of_defense.dds
+			animationmaskfile = gfx/national_focus/bwn/bwn_focus_icon_Address_the_school.dds
 			animationtexturefile = gfx/interface/goals/shine_overlay.dds     # <- the animated file
 			animationrotation = 90.0        # -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no            # yes or no ;)
