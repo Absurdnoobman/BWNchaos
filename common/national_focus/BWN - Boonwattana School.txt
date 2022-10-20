@@ -1,0 +1,28 @@
+focus_tree = {
+
+	id = BWN_focus_tree
+    country = {
+        base = 10
+        modifier = {
+            add = 25
+            original_tag = BWN
+        }
+    }
+	continuous_focus_position = { x = 450 y = 1500 }
+    initial_show_position = { focus = BWN_focus_tree }
+
+	focus = {
+		id = BWN_focus_Address_the_school
+		x = 20
+		y = 0
+		icon = GFX_bwn_focus_icon_Address_the_school
+		cost = 5
+		ai_will_do = {
+			base = 100
+		}
+		completion_reward = {
+			add_political_power = 300
+			add_stability = 10
+		}
+	}
+}
