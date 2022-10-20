@@ -1,0 +1,9 @@
+leader_traits = {
+    new_principal = {
+        random = no
+    }
+    never_give_up = {
+        random = no
+        stability_gain_factor = 0.2
+    }
+}

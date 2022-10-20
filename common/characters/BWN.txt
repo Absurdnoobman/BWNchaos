@@ -1,0 +1,31 @@
+characters = {
+
+	# Main country leader
+    BWN_supon_jorgthong = {
+        name = BWN_supon_jorgthong
+        portraits = {
+            civilian = {
+                large = GFX_BWN_supon_jorgthong
+            }
+        }
+		gender = male
+        country_leader = {
+            ideology = moderatism
+            traits = { new_principal }
+        }
+    }
+
+	# MEME leader
+	BWN_rick_astley = {
+		name = BWN_rick_astley
+		portraits = {
+			civilian = {
+				large = GFX_BWN_rick_astley
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = { never_give_up }
+		}
+	}
+}

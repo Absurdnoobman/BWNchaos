@@ -1,0 +1,5 @@
+KOS	= "countries/Kosovo.txt"
+
+# mod
+
+BWN = "countries/Boonwattana_School.txt"
