@@ -81,4 +81,5 @@ ideologies = {
 		}
 		ai_democratic = yes # Determines what ai this ideology will use (democratic, communism, fascism, neutral)
 	}
+	# liberal_democratic
 }
