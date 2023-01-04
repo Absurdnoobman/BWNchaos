@@ -1,5 +1,5 @@
 # UNUSABLE MOD
-This mod is still **in development** and it can't run successfully in hoi 4 base game.
+This mod is still **in development** and it **can't run** in hoi 4 base game.
 
 # BWNchaos
 
