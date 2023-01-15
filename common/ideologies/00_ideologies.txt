@@ -2,6 +2,9 @@ ideologies = {
 
 	# Democratic
 	conservative = {
+		sub_ideologies = {
+			
+		}
 		color = { 0 135 220 } # RGB ideology colour, used in the political pie chart or next to the chart.
 		rules = { # Rules for the ideology.  (yes/no)
             can_create_collaboration_government = no # Can create a collaboration government
