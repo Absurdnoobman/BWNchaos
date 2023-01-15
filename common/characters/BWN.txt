@@ -23,8 +23,9 @@ characters = {
 				large = GFX_BWN_rick_astley
 			}
 		}
+		gender = male
 		country_leader = {
-			ideology = conservatism
+			ideology = progressive
 			traits = { never_give_up }
 		}
 	}
