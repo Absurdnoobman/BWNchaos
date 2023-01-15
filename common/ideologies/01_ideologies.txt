@@ -2,7 +2,7 @@ ideologies = {
 
 	# Democratic
 	conservative = {
-		type = {
+		types = {
 			moderate_conservative = {
 			}
 		}
@@ -50,6 +50,10 @@ ideologies = {
 	}
 
 	social_democracy = {
+		types = {
+			labour = {
+			}
+		}
 		color = { 228 0 59 }
 		rules = { # Rules for the ideology.  (yes/no)
 			can_create_collaboration_government = no # Can create a collaboration government
@@ -94,7 +98,7 @@ ideologies = {
 	}
 	# liberal_democratic
 	liberal_democracy = {
-		type = {
+		types = {
 			progressive = {
 			}
 		}
