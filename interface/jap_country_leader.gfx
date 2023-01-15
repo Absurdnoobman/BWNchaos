@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+    	name = GFX_emperor_pipop
+    	texturefile = gfx/leaders/JAP/large_emperor_pipop.dds
+	}
+}
