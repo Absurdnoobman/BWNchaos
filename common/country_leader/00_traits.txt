@@ -1,5 +1,5 @@
 leader_traits = {
-    new_principal = {
+    school_principal = {
         random = no
     }
     never_give_up = {
