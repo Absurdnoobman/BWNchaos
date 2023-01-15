@@ -10,8 +10,8 @@ characters = {
         }
 		gender = male
         country_leader = {
-            ideology = moderatism
-            traits = { new_principal }
+            ideology = moderate_conservative
+            traits = { school_principal }
         }
     }
 

@@ -5,9 +5,9 @@ This mod is still **in development** and it **can't run** in hoi 4 base game.
 
 HOI 4 MOD
 
-
 # Disclaimer 
 
 This mod is <font color="red">NOT</font> want to disrespect or hurt everyone emotionally.  
 
 This mod is created for improve my team coding skill and experimental purposes **only**.
+
