@@ -6,4 +6,7 @@ leader_traits = {
         random = no
         stability_gain_factor = 0.2
     }
+    esport_gamer = {
+        random = no
+    }
 }
