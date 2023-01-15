@@ -56,6 +56,8 @@ guiTypes = {
 			position = { x = 300 y = 305 }
 			size = { width = 240 height = 60 }
 			clipping = yes
+			verticalScrollbar = "right_vertical_slider"
+			margin = { top = 0 botton = 0 }
 			
 			background = {
 				name = "Background"		

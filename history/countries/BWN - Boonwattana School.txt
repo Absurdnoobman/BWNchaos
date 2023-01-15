@@ -48,6 +48,8 @@ if = {
 	}
 }
 
+oob = "SIA_1936"
+
 1939.1.1 = {
 
 	set_politics = {
@@ -134,4 +136,7 @@ if = {
 			basic_medium_battery = 1
 		}
 	}
+
+	oob = "SIA_1939"
+	
 }
