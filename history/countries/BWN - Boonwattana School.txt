@@ -9,12 +9,16 @@ recruit_character = BWN_supon_jorgthong
 
 # politic
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = conservative
 	last_election = "1936.1.1"
 	election_frequency = 48 #every 4 years
 	elections_allowed = yes
 }
 set_popularities = {
-	conservative = 5
-	neutrality = 95
+	conservative = 70
+	liberal_democracy = 15
+	social_democracy = 5
+	fascism = 5
+	communism = 2
+	neutrality = 3
 }

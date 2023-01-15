@@ -1,4 +1,12 @@
 l_english:
-  conservative:0 "Conservative"
+  conservative:0 "Conservatives"
   conservative_noun:0 "Conservative"
-  conservative_decs:0 
+  conservative_decs:0 "Right-wing democrat"
+  moderate_conservative:0 "moderate conservative"
+  social_democracy:0 "Social democratic"
+  social_democracy_noun:0 "Social democracy"
+  social_democracy_decs:0 "Left-wing democrat"
+  liberal_democracy:0 "Liberal democratic"
+  liberal_democracy_noun:0 "Liberal democracy"
+  liberal_democracy_decs:0 "Modern democrat"
+  progressive:0 "Progressive"
