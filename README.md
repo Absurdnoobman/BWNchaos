@@ -7,7 +7,7 @@ HOI 4 MOD
 
 # Disclaimer 
 
-This mod is <font color="red">NOT</font> want to disrespect or hurt everyone emotionally.  
+This mod is **NOT** want to disrespect or hurt everyone emotionally.  
 
 This mod is created for improve my team coding skill and experimental purposes **only**.
 
