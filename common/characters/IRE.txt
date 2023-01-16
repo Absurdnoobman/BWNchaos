@@ -1,6 +1,6 @@
 characters={
-	IRE_pravaris_bunmamorn={
-		name = IRE_pravaris_bunmamorn 
+	IRE_pawarit_bunmamorn={
+		name = IRE_pawarit_bunmamorn 
 		portraits={
 			civilian={
 				large=GFX_IRE_pawarit_bunmamorn
@@ -9,7 +9,6 @@ characters={
 		country_leader={
 			ideology=Moderatism
 			traits = { esport_gamer }
-			expire="2000.1.1.1"
 			id=-1
 		}
 	}
