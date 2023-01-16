@@ -3,7 +3,7 @@ characters={
 		name = IRE_pravaris_bunmamorn 
 		portraits={
 			civilian={
-				large=GFX_IRE_pravaris_bunmamorn
+				large=GFX_IRE_pawarit_bunmamorn
 			}
 		}
 		country_leader={

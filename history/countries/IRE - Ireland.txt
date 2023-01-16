@@ -13,7 +13,7 @@ set_technology = {
 
 set_convoys = 10
 
-recruit_character = IRE_pravaris_bunmamorn
+recruit_character = IRE_pawarit_bunmamorn
 recruit_character = IRE_eoin_oduffy
 recruit_character = IRE_james_larkin
 recruit_character = IRE_william_norton

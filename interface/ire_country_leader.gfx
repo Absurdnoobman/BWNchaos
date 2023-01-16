@@ -1,6 +1,6 @@
 spriteTypes = {
 	spriteType = {
-    	name = GFX_IRE_pravaris_bunmamorn
-    	texturefile = gfx/leaders/IRE/large_pravaris_bunmamorn.dds
+    	name = GFX_IRE_pawarit_bunmamorn
+    	texturefile = gfx/leaders/IRE/large_pawarit_bunmamorn.dds
 	}
 }
