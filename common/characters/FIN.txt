@@ -8,7 +8,9 @@ characters={
 		}
 		country_leader={
 			ideology = technocrat
-			trait = { esport_gamer ai_engineer }
+			trait = { 
+				artificial_intelligence_engineer 
+			}
 			id=-1
 		}
 	}
