@@ -121,6 +121,8 @@ ideologies = {
 		types = {
 			progressive = {
 			}
+			technocrat = {
+			}
 		}
 
 		dynamic_faction_names = {

@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+    	name = GFX_SOV_nuttakorn_chantarasena
+    	texturefile = gfx/leaders/IRE/large_nuttakorn_chantarasena.dds
+	}
+}
