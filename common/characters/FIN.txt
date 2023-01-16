@@ -1,13 +1,13 @@
 characters={
-	FIN_punnapop_kaewpharai={
-		name=FIN_punnapop_kaewpharai
+	FIN_punnapop_kaewpharai = {
+		name = FIN_punnapop_kaewpharai
 		portraits={
 			civilian={
-				large=GFX_FIN_punnapop_kaewpharai
+				large = GFX_FIN_punnapop_kaewpharai
 			}
 		}
 		country_leader={
-			ideology=technocrat
+			ideology = technocrat
 			trait = { esport_gamer ai_engineer }
 			id=-1
 		}
