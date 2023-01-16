@@ -1,6 +1,6 @@
 spriteTypes = {
 	spriteType = {
-    	name = GFX_IRE_punnapop_kaewpharai
-    	texturefile = gfx/leaders/IRE/large_punnapop_kaewpharai.dds
+    	name = GFX_FIN_punnapop_kaewpharai
+    	texturefile = gfx/leaders/FIN/large_punnapop_kaewpharai.dds
 	}
 }
