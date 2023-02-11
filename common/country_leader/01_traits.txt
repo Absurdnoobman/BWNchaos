@@ -1,0 +1,26 @@
+leader_traits = {
+    school_principal = {
+        random = no
+        resistance_decay_on_our_occupied_states = 0.1
+        political_power_factor = 0.25
+    }
+    never_give_up = {
+        random = no
+        stability_gain_factor = 0.2
+    }
+    esport_gamer = {
+        random = no
+        naval_detection = 0.3
+        max_planning_factor = 0.75
+    }
+    engineer_ai = {
+        random = no
+        decryption_factor = 0.75
+    }
+    programmer = {
+        random = no
+    }
+    intellectual = {
+        random = no
+    }
+}
