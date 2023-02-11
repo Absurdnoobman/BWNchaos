@@ -27,7 +27,7 @@ focus_tree = {
 			add_stability = 0.1
 		}
 	}
-
+	
 	focus = {
 		id = BWN_focus_stay_in_the_current_lane
 		icon = GFX_goal_stay_in_the_current_lane
@@ -37,14 +37,13 @@ focus_tree = {
 			is_subject = no
 			conservative > 0.3
 		}
-		relative_position_id = BWN_focus_address_the_school
 		x = -5
 		y = 1
+		relative_position_id = BWN_focus_address_the_school
 		cost = 5
 		ai_will_do = {
 			factor = 70
 		}
-		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			add_political_power = 100
 			add_popularity = { ideology = conservative popularity = 0.15}
@@ -63,7 +62,6 @@ focus_tree = {
 		ai_will_do = {
 			factor = 40
 		}
-		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			add_political_power = 100
 			add_stability = -0.5
