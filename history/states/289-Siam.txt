@@ -1,0 +1,40 @@
+state={
+	id=289
+	name="STATE_289"
+	resources={
+		rubber=4
+		tungsten=2
+		steel=12
+		oil=3
+	}
+
+	history={
+		owner = BWN
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 7
+			air_base = 5
+			7408 = {
+				naval_base = 5
+
+			}
+
+		}
+		victory_points = {
+			7408 10 
+		}
+		
+		
+		add_core_of = BWN
+
+	}
+
+	provinces={
+		1244 1427 4319 4348 4433 4566 7225 7292 7312 7338 7353 7367 7408 7544 7559 7572 7587 10193 10221 10250 10293 10398 10411 12173 12224 12345 
+	}
+	manpower=924678
+	buildings_max_level_factor=3.000
+	state_category=city
+	local_supplies=0.000
+}

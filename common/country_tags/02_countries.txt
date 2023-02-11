@@ -1,0 +1,3 @@
+# mod
+
+BWN = "countries/Boonwattana_School.txt"
