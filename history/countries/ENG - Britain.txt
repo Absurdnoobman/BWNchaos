@@ -466,6 +466,11 @@ add_to_faction = MAL
 
 # Order matters - here Chamberlain becomes starting leader
 recruit_character = ENG_piyaphong_artsuek
+recruit_character = ENG_rick_astley
+recruit_character = ENG_john_attlee
+
+activate_advisor = ENG_john_attlee
+
 recruit_character = ENG_oswald_mosley
 recruit_character = ENG_winston_churchill
 recruit_character = ENG_red_piyaphong

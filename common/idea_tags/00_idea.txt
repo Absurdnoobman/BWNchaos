@@ -22,14 +22,25 @@ idea_categories = {
 		
 		ledger = hidden
 	}
-	
-	government = {
+
+	lower_house = {
+		character_slot = speaker
+		character_slot = opposition_leader
+		character_slot = political_advisor
+		character_slot = political_advisor
+		character_slot = political_advisor
+		character_slot = political_advisor
+
+		ledger = civilian
+	}
+
+	law = {
 		slot = mobilization_laws
 		slot = trade_laws
 		slot = economy
-		character_slot = political_advisor
-		character_slot = political_advisor
-		character_slot = political_advisor
+		slot = law_1
+		slot = law_2
+		slot = law_3
 		
 		ledger = civilian
 		

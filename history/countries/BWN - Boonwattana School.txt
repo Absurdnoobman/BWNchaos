@@ -6,7 +6,6 @@ set_war_support = 0.2
 set_convoys = 15
 
 recruit_character = BWN_supon_jorgthong
-recruit_character = BWN_rick_astley
 
 # politic
 set_politics = {

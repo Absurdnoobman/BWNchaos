@@ -4,6 +4,26 @@ spriteTypes = {
     	texturefile = gfx/leaders/ENG/large_piyaphong_artsuek.dds
 	}
 	spriteType = {
+    	name = GFX_ENG_piyaphong_artsuek_small
+    	texturefile = gfx/ideas/lower_house/ENG/small_piyaphong_artsuek.dds
+	}
+	spriteType = {
+    	name = GFX_ENG_rick_astley
+    	texturefile = gfx/leaders/ENG/large_rick_astley.dds
+	}
+	spriteType = {
+    	name = GFX_ENG_rick_astley_small
+    	texturefile = gfx/ideas/lower_house/ENG/small_rick_astley.dds
+	}
+	spriteType = {
+    	name = GFX_ENG_john_attlee
+    	texturefile = gfx/leaders/ENG/large_john_attlee.dds
+	}
+	spriteType = {
+    	name = GFX_ENG_john_attlee_small
+    	texturefile = gfx/ideas/lower_house/ENG/small_john_attlee.dds
+	}
+	spriteType = {
     	name = GFX_ENG_red_piyaphong
     	texturefile = gfx/leaders/ENG/large_piyaphong_artsuek_red.dds
 	}

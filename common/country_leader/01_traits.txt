@@ -26,6 +26,9 @@ leader_traits = {
         random = no
         political_power_factor = 0.025
     }
+    lord_in_waiting = {
+        random = no
+    }
 
     conservative_booster = {
         random = no

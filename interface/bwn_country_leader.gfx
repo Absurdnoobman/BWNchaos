@@ -3,8 +3,4 @@ spriteTypes = {
     	name = GFX_BWN_supon_jorgthong
     	texturefile = gfx/leaders/BWN/large_supon_jorgthong.dds
 	}
-	spriteType = {
-    	name = GFX_BWN_rick_astley
-    	texturefile = gfx/leaders/BWN/large_rick_astley.dds
-	}
 }

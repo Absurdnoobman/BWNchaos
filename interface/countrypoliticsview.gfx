@@ -301,6 +301,21 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_idea_slot_speaker"
+		textureFile = "gfx/interface/officer_corp/select_advisor.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_slot_opposition_leader"
+		textureFile = "gfx/interface/officer_corp/select_advisor.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_slot_law"
+		textureFile = "gfx/interface/add_pol_idea_button.dds"
+	}
+
+	spriteType = {
 		name = "GFX_goal_entry_pp_bg"
 		textureFile = "gfx/interface/goal_entry_pp_bg.dds"
 	}
