@@ -55,7 +55,7 @@ characters={
 		}
 		country_leader={
 			ideology = uk_conservative
-			traits={ programmer }
+			traits={ programmer conservative_mp }
 			id=-1
 		}
 	}

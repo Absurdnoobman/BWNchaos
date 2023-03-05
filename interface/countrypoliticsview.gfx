@@ -495,6 +495,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_ideology_ENG_uk_conservative"
+		texturefile = "gfx/interface/ideologies/uk_conservative.dds"
+	}
+
+	spriteType = {
 		name = "GFX_ideology_unknown"
 		texturefile = "gfx/interface/ideologies/unknown.dds"
 		legacy_lazy_load = no

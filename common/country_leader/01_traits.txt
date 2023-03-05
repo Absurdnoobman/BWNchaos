@@ -10,7 +10,6 @@ leader_traits = {
     }
     esport_gamer = {
         random = no
-        naval_detection = 0.3
         max_planning_factor = 0.75
     }
     engineer_ai = {
@@ -22,5 +21,37 @@ leader_traits = {
     }
     intellectual = {
         random = no
+    }
+    conservative_mp = {
+        random = no
+        political_power_factor = 0.025
+    }
+
+    conservative_booster = {
+        random = no
+        sprite = 13
+        conservative_drift = 0.1
+        
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    social_democracy_booster = {
+        random = no
+        sprite = 13
+        social_democracy_drift = 0.1
+        
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    liberal_democracy_booster = {
+        random = no
+        sprite = 13
+        liberal_democracy_drift = 0.1
+        
+        ai_will_do = {
+            factor = 0
+        }
     }
 }
