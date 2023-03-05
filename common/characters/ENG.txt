@@ -97,55 +97,16 @@ characters={
 		}
 	}
 
-	ENG_harry_pollitt={
-		name=ENG_harry_pollitt
+	ENG_red_piyaphong={
+		name=ENG_red_piyaphong
 		portraits={
 			civilian={
-				large=GFX_portrait_ENG_harry_pollitt
-			}
-			army={
-				small="GFX_idea_harry_pollitt"
+				large=GFX_ENG_red_piyaphong
 			}
 		}
-		advisor={
-			slot = political_advisor
-			idea_token = harry_pollitt
-			allowed  = {
-				original_tag  = ENG
-			}
-			available  = {
-				if  = {
-					limit  = {
-						has_dlc = "Man the Guns"
-					}
-					has_government  = communism 
-				}
-				if  = {
-					limit  = {
-						has_dlc = "Man the Guns"
-					}
-					NOT = {
-						has_autonomy_state  = autonomy_supervised_state
-					}
-				}
-			}
-			traits  = {
-				communist_revolutionary 
-			}
-			do_effect  = {
-				NOT = {
-					has_government  = communism 
-				}
-			}
-			ai_will_do  = {
-				factor  = 0.000
-			}
-		}
-		
 		country_leader={
 			ideology=leninism
 			traits={ staunch_stalinist }
-			expire="1965.1.1.1"
 			id=-1
 		}
 	}

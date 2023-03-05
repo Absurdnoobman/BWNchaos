@@ -3,4 +3,8 @@ spriteTypes = {
     	name = GFX_ENG_piyaphong_artsuek
     	texturefile = gfx/leaders/ENG/large_piyaphong_artsuek.dds
 	}
+	spriteType = {
+    	name = GFX_ENG_red_piyaphong
+    	texturefile = gfx/leaders/ENG/large_piyaphong_artsuek_red.dds
+	}
 }
