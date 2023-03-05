@@ -129,6 +129,8 @@ ideologies = {
 			}
 			technocrat = {
 			}
+			can_liberal_dem ={
+			}
 		}
 
 		dynamic_faction_names = {
