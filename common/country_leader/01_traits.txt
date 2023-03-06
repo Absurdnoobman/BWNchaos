@@ -22,14 +22,26 @@ leader_traits = {
     intellectual = {
         random = no
     }
+
+    # politic
     conservative_mp = {
+        sprite = 13
         random = no
-        political_power_factor = 0.025
+        political_power_factor = 0.02
     }
     lord_in_waiting = {
         random = no
     }
-
+    speaker_trait = {
+        random = no
+        stability_gain_factor = 0.05
+    }
+    opposition = {
+        sprite = 13
+        random = no
+    }
+    
+    #booster
     conservative_booster = {
         random = no
         sprite = 13

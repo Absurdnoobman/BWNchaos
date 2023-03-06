@@ -3,4 +3,8 @@ spriteTypes = {
     	name = GFX_CAN_thitiwut_sowapark
     	texturefile = gfx/leaders/CAN/large_thitiwut_sowapark.dds
 	}
+	spriteType = {
+    	name = GFX_CAN_thitiwut_sowapark_small
+    	texturefile = gfx/ideas/lower_house/CAN/small_thitiwut_sowapark.dds
+	}
 }

@@ -61,9 +61,16 @@ characters={
 				NOT = {
 					has_government = conservative
 				}
-				party_popularity_100@conservative < party_popularity_100@ruling_party
-				party_popularity_100@conservative = highest_party_popularity@exclude_ruling_party
+				AND = {
+					conservative < party_popularity_100@ruling_party
+					conservative = highest_party_ideology@exclude_ruling_party
+				}
 			}
+			ai_will_do = {
+				factor = 0
+			}
+			traits={ opposition }
+			removal_cost = -1
 		}
 		country_leader={
 			ideology = uk_conservative
@@ -87,9 +94,16 @@ characters={
 				NOT = {
 					has_government = social_democracy
 				}
-				party_popularity_100@social_democracy < party_popularity_100@ruling_party
-				party_popularity_100@social_democracy = highest_party_popularity@exclude_ruling_party
+				AND = {
+					social_democracy < party_popularity_100@ruling_party
+					social_democracy = highest_party_popularity@exclude_ruling_party
+				}
 			}
+			ai_will_do = {
+				factor = 0
+			}
+			traits={ opposition }
+			removal_cost = -1
 		}
 		country_leader={
 			ideology = uk_labour
@@ -113,13 +127,35 @@ characters={
 				NOT = {
 					has_government = liberal_democracy
 				}
-				party_popularity_100@liberal_democracy < party_popularity_100@ruling_party
-				party_popularity_100@liberal_democracy = highest_party_popularity@exclude_ruling_party
+				AND = {
+					liberal_democracy < party_popularity@ruling_party
+					liberal_democracy = highest_party_popularity@exclude_ruling_party
+				}
 			}
+			ai_will_do = {
+				factor = 0
+			}
+			traits={ opposition }
+			removal_cost = -1
 		}
 		country_leader = {
 			ideology = progressive
 			traits = { never_give_up }
+		}
+	}
+
+	ENG_john_bercow = {
+		name = ENG_john_bercow
+		gender = male
+		portraits = {
+			civilian = {
+				small = "GFX_ENG_john_bercow_small"
+			}
+		}
+		advisor = {
+			slot = speaker
+			removal_cost = -1
+			traits = { speaker_trait }
 		}
 	}
 

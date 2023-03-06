@@ -1,0 +1,10 @@
+# on_actions = {
+# 	on_startup = {
+# 		every_country = {
+# 			ENG = {
+# 				activate_advisor = ENG_john_attlee
+# 				activate_advisor = ENG_john_bercow
+# 			}
+# 		}
+# 	}
+# }
