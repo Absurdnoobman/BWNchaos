@@ -627,7 +627,6 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 		}
 		
-		
 		instantTextboxType = {
 			name = "name"
 			position = { x = 70 y = 14 }
