@@ -62,7 +62,7 @@ characters={
 					has_government = conservative
 				}
 				party_popularity_100@conservative < party_popularity_100@ruling_party
-				conservative = highest_party_popularity@exclude_ruling_party
+				party_popularity_100@conservative = highest_party_popularity@exclude_ruling_party
 			}
 		}
 		country_leader={
@@ -76,7 +76,8 @@ characters={
 		name=ENG_john_attlee
 		portraits={
 			civilian={
-				large=GFX_ENG_john_attlee
+				large = GFX_ENG_john_attlee
+				small = GFX_ENG_john_attlee_small
 			}
 		}
 		gender = male
@@ -87,7 +88,7 @@ characters={
 					has_government = social_democracy
 				}
 				party_popularity_100@social_democracy < party_popularity_100@ruling_party
-				social_democracy = highest_party_popularity@exclude_ruling_party
+				party_popularity_100@social_democracy = highest_party_popularity@exclude_ruling_party
 			}
 		}
 		country_leader={
@@ -113,7 +114,7 @@ characters={
 					has_government = liberal_democracy
 				}
 				party_popularity_100@liberal_democracy < party_popularity_100@ruling_party
-				liberal_democracy = highest_party_popularity@exclude_ruling_party
+				party_popularity_100@liberal_democracy = highest_party_popularity@exclude_ruling_party
 			}
 		}
 		country_leader = {

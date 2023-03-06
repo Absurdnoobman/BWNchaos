@@ -34,7 +34,7 @@ idea_categories = {
 		ledger = civilian
 	}
 
-	law = {
+	laws = {
 		slot = mobilization_laws
 		slot = trade_laws
 		slot = economy

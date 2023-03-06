@@ -15,11 +15,11 @@ characters={
 					has_government = liberal_democracy
 				}
 				party_popularity_100@liberal_democracy < party_popularity_100@ruling_party
-				liberal_democracy = highest_party_popularity@exclude_ruling_party
+				party_popularity_100@liberal_democracy = highest_party_popularity@exclude_ruling_party
 			}
 		}
 		country_leader={
-			ideology=can_liberal_dem
+			ideology = can_liberal_dem
 			id=-1
 		}
 	}
