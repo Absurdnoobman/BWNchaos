@@ -39,6 +39,6 @@ spriteTypes = {
 	}
 	spriteType = {
     	name = GFX_ENG_gray_scale_piyaphong
-    	texturefile = gfx/leaders/ENG/large_gray_scale_piyaphong.dds
+    	texturefile = gfx/leaders/ENG/large_piyaphong_artsuek_gray_scale.dds
 	}
 }
