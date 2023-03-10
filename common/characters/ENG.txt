@@ -175,7 +175,7 @@ characters = {
 		gender = male
 		portraits = {
 			civilian = {
-				small = GFX_ENG_john_bercow_small
+				small = GFX_ENG_john_bercow
 			}
 		}
 		advisor = {

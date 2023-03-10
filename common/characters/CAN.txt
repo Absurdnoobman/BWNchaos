@@ -24,6 +24,25 @@ characters={
 		}
 	}
 
+	CAN_geoff_regan = {
+		name = CAN_geoff_regan
+		gender = male
+		portraits = {
+			civilian = {
+				small = GFX_CAN_geoff_regan
+			}
+		}
+		advisor = {
+			slot = speaker
+			allowed = {
+				has_elections = yes
+			}
+			cost = 1
+			removal_cost = -1
+			traits = { speaker_trait }
+		}
+	}
+
 	CAN_adrien_arcand={
 		name=CAN_adrien_arcand
 		portraits={
