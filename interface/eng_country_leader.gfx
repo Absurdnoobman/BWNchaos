@@ -1,4 +1,10 @@
 spriteTypes = {
+
+	# spriteType = {
+	#     name = GFX_ENG_john_bercow
+	#     texturefile = gfx/ideas/lower_house/ENG/small_john_bercow.dds
+	# }
+
 	spriteType = {
     	name = GFX_ENG_piyaphong_artsuek
     	texturefile = gfx/leaders/ENG/large_piyaphong_artsuek.dds
