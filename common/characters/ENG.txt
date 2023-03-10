@@ -189,43 +189,6 @@ characters = {
 		}
 	}
 
-	ENG_oswald_mosley={
-		name=ENG_oswald_mosley
-		portraits={
-			civilian={
-				large=GFX_portrait_ENG_oswald_mosley
-			}
-			army={
-				small="GFX_idea_ENG_oswald_mosley"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = ENG_oswald_mosley
-			available  = {
-				has_government  = neutrality 
-				has_completed_focus  = ENG_the_kings_party 
-			}
-			allowed  = {
-				original_tag  = ENG
-				has_dlc = "Man the Guns"
-			}
-			traits  = {
-				economic_organizer 
-			}
-			ai_will_do  = {
-				factor  = 1.000
-			}
-		}
-		
-		country_leader={
-			ideology=fascism_ideology
-			traits={ champion_of_peace_1 economic_reformer }
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
-
 	ENG_red_piyaphong={
 		name=ENG_red_piyaphong
 		portraits={
@@ -236,6 +199,20 @@ characters = {
 		country_leader={
 			ideology=leninism
 			traits={ staunch_stalinist }
+			id=-1
+		}
+	}
+
+	ENG_gray_scale_piyaphong={
+		name=ENG_gray_scale_piyaphong
+		portraits={
+			civilian={
+				large=GFX_ENG_gray_scale_piyaphong
+			}
+		}
+		country_leader={
+			ideology= fascism_ideology
+			traits={ economic_reformer }
 			id=-1
 		}
 	}

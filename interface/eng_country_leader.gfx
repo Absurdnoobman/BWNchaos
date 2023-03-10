@@ -37,4 +37,8 @@ spriteTypes = {
     	name = GFX_ENG_red_piyaphong_small
     	texturefile = gfx/ideas/lower_house/ENG/small_piyaphong_artsuek_red.dds
 	}
+	spriteType = {
+    	name = GFX_ENG_gray_scale_piyaphong
+    	texturefile = gfx/leaders/ENG/large_gray_scale_piyaphong.dds
+	}
 }

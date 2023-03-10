@@ -469,12 +469,12 @@ recruit_character = ENG_piyaphong_artsuek
 recruit_character = ENG_john_attlee
 recruit_character = ENG_rick_astley
 
+recruit_character = ENG_red_piyaphong
+recruit_character = ENG_gray_scale_piyaphong
+
 recruit_character = ENG_john_bercow
 
-recruit_character = ENG_red_piyaphong
-recruit_character = ENG_oswald_mosley
 recruit_character = ENG_winston_churchill
-
 recruit_character = ENG_alan_brooke
 recruit_character = ENG_bernard_montgomery
 recruit_character = ENG_claude_auchinleck
