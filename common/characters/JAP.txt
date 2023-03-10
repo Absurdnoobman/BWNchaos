@@ -1,15 +1,15 @@
 characters={
-	JAP_emperor_pipop={
-		name=JAP_emperor_pipop
+	JAP_phiphop_sunthonpan={
+		name=JAP_phiphop_sunthonpan
 		portraits={
 			civilian={
-				large=GFX_JAP_emperor_pipop
+				large=GFX_JAP_phiphop_sunthonpan
 			}
 		}
 		country_leader={
-			ideology=fascism_ideology
+			ideology = progressive
 			traits={ esport_gamer }
-			id=700
+			id=-1
 		}
 	}
 

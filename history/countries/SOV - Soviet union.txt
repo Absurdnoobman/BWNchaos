@@ -17,7 +17,7 @@ set_party_name = {
 }
 
 #COUNTRY LEADERS
-recruit_character = SOV_nuttakorn_chantarasena
+recruit_character = SOV_nattakorn_chantarasena
 recruit_character = SOV_supreme_soviet #This is a fake character! Proper country leader role is added via focus
 if = {
 	limit = {

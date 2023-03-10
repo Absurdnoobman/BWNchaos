@@ -12,11 +12,11 @@ characters = {
   ####    ####    ####   #    #    #    #    #    #        ######  ######  #    #  #####   ######  #    #   ####  
                                                                                                                   
 
-	SOV_nuttakorn_chantarasena = {
-		name = SOV_nuttakorn_chantarasena
+	SOV_nattakorn_chantarasena = {
+		name = SOV_nattakorn_chantarasena
 		portraits = {
 			civilian = {
-				large = GFX_SOV_nuttakorn_chantarasena
+				large = GFX_SOV_nattakorn_chantarasena
 			}
 			# army = {
 			# 	large = GFX_portrait_SOV_iosif_stalin
@@ -25,7 +25,7 @@ characters = {
 		}
 		country_leader = {
 			ideology = stalinism
-			traits = { stalin_heart_of_steel }
+			traits = { esport_gamer }
 			expire = "1953.3.1.1"
 			id = -1
 		}

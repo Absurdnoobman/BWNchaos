@@ -421,18 +421,19 @@ if = {
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = liberal_democracy
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = no
 }
 set_popularities = {
-	fascism = 100
+	liberal_democracy = 100
 }
+
+recruit_character = JAP_phiphop_sunthonpan
 
 recruit_character = JAP_tetsu_katayama
 recruit_character = JAP_kyuichi_tokuda
-recruit_character = JAP_emperor_pipop
+
 recruit_character = JAP_tomoyuki_yamashita
 recruit_character = JAP_hisaichi_terauchi
 recruit_character = JAP_shunroku_hata

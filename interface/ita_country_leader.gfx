@@ -1,6 +1,6 @@
 spriteTypes = {
 	spriteType = {
-    	name = GFX_ITA_peerapat_asawaratanavikul
-    	texturefile = gfx/leaders/ITA/large_peerapat_asawaratanavikul.dds
+    	name = GFX_ITA_peerapat_aussawarattanawigoon
+    	texturefile = gfx/leaders/ITA/large_peerapat_aussawarattanawigoon.dds
 	}
 }

@@ -1,4 +1,4 @@
-characters={
+characters = {
 	ENG_winston_churchill={
 		name=ENG_winston_churchill
 		portraits={
@@ -61,10 +61,13 @@ characters={
 				NOT = {
 					has_government = conservative
 				}
-				AND = {
-					conservative < party_popularity_100@ruling_party
-					conservative = highest_party_ideology@exclude_ruling_party
+				check_variable = {
+					var = highest_party_ideology@exclude_ruling_party
+					value = conservative
+					compare = equals
 				}
+				conservative < party_popularity@ruling_party
+				
 			}
 			visible = {
 				has_elections = yes
@@ -97,10 +100,13 @@ characters={
 				NOT = {
 					has_government = social_democracy
 				}
-				AND = {
-					social_democracy < party_popularity_100@ruling_party
-					social_democracy = highest_party_popularity@exclude_ruling_party
+				check_variable = {
+					var = highest_party_ideology@exclude_ruling_party
+					value = social_democracy
+					compare = equals
 				}
+				social_democracy < party_popularity@ruling_party
+				
 			}
 			visible = {
 				has_elections = yes
@@ -133,10 +139,14 @@ characters={
 				NOT = {
 					has_government = liberal_democracy
 				}
-				AND = {
-					liberal_democracy < party_popularity@ruling_party
-					liberal_democracy = highest_party_popularity@exclude_ruling_party
+				check_variable = {
+					var = highest_party_ideology@exclude_ruling_party
+					value = liberal_democracy
+					compare = equals
 				}
+				liberal_democracy < party_popularity@ruling_party
+				
+				
 			}
 			visible = {
 				has_elections = yes
@@ -1258,8 +1268,7 @@ characters={
 			}
 		}
 	}
-
-# Communist ministers, intentionally without loc so they are 'randomized'
+	# Communist ministers, intentionally without loc so they are 'randomized'
 	ENG_random_communist_minister_14={
 		portraits={
 			army={
@@ -2006,7 +2015,7 @@ characters={
 		}
 	}
 
-# Communist ministers, intentionally without loc so they are 'randomized'
+	# Communist ministers, intentionally without loc so they are 'randomized'
 
 	ENG_random_communist_minister_1={
 		portraits={
@@ -2432,6 +2441,7 @@ characters={
 					factor  = 0.000
 				}
 			}
+
 			allowed  = {
 				original_tag  = ENG
 				has_dlc = "La Resistance"
@@ -2439,6 +2449,7 @@ characters={
 			traits  = {
 				mastermind_code_cracker 
 			}
+			
 		}
 	}
 }

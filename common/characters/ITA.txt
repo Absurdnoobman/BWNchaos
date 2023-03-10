@@ -9,11 +9,11 @@ characters = {
   ####    ####    ####   #    #    #    #    #    #        ######  ######  #    #  #####   ######  #    #   ####  
 
 
-	ITA_peerapat_asawaratanavikul = {
-		name = ITA_peerapat_asawaratanavikul
+	ITA_peerapat_aussawarattanawigoon = {
+		name = ITA_peerapat_aussawarattanawigoon
 		portraits = {
 			civilian = {
-				large = GFX_ITA_peerapat_asawaratanavikul
+				large = GFX_ITA_peerapat_aussawarattanawigoon
 			}
 		}
 

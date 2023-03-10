@@ -1,6 +1,6 @@
 spriteTypes = {
 	spriteType = {
-    	name = GFX_SOV_nuttakorn_chantarasena
-    	texturefile = gfx/leaders/SOV/large_nuttakorn_chantarasena.dds
+    	name = GFX_SOV_nattakorn_chantarasena
+    	texturefile = gfx/leaders/SOV/large_nattakorn_chantarasena.dds
 	}
 }

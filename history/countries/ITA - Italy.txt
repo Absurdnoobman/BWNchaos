@@ -722,7 +722,7 @@ set_popularities = {
 	neutrality = 5
 }
 
-recruit_character = ITA_peerapat_asawaratanavikul
+recruit_character = ITA_peerapat_aussawarattanawigoon
 recruit_character = ITA_grand_council
 recruit_character = ITA_vittorio_emanuele_iii
 recruit_character = ITA_ferruccio_parri
