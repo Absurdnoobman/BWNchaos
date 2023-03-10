@@ -66,6 +66,9 @@ characters={
 					conservative = highest_party_ideology@exclude_ruling_party
 				}
 			}
+			visible = {
+				has_elections = yes
+			}
 			ai_will_do = {
 				factor = 0
 			}
@@ -99,6 +102,9 @@ characters={
 					social_democracy = highest_party_popularity@exclude_ruling_party
 				}
 			}
+			visible = {
+				has_elections = yes
+			}
 			ai_will_do = {
 				factor = 0
 			}
@@ -131,6 +137,9 @@ characters={
 					liberal_democracy < party_popularity@ruling_party
 					liberal_democracy = highest_party_popularity@exclude_ruling_party
 				}
+			}
+			visible = {
+				has_elections = yes
 			}
 			ai_will_do = {
 				factor = 0
