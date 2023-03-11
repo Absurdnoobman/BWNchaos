@@ -189,6 +189,25 @@ characters = {
 		}
 	}
 
+	ENG_lindsay_hoyle = {
+		name = ENG_lindsay_hoyle
+		gender = male
+		portraits = {
+			civilian = {
+				small = GFX_ENG_lindsay_hoyle
+			}
+		}
+		advisor = {
+			slot = speaker
+			allowed = {
+				has_elections = yes
+			}
+			cost = 1
+			removal_cost = -1
+			traits = { speaker_trait }
+		}
+	}
+
 	ENG_red_piyaphong={
 		name=ENG_red_piyaphong
 		portraits={

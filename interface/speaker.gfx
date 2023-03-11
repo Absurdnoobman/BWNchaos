@@ -4,6 +4,10 @@ spriteTypes = {
     	texturefile = gfx/ideas/lower_house/ENG/small_john_bercow.dds
 	}
 	spriteType = {
+    	name = GFX_ENG_lindsay_hoyle
+    	texturefile = gfx/ideas/lower_house/ENG/small_lindsay_hoyle.dds
+	}
+	spriteType = {
     	name = GFX_CAN_geoff_regan
     	texturefile = gfx/ideas/lower_house/CAN/small_geoff_regan.dds
 	}
