@@ -41,6 +41,10 @@ set_stability = 0.8
 set_war_support = 0.1
 
 recruit_character = CAN_thitiwut_sowapark
+recruit_character = CAN_pierre_poilievre
+
+recruit_character = CAN_geoff_regan
+
 recruit_character = CAN_adrien_arcand
 recruit_character = CAN_tim_buck
 recruit_character = CAN_j_s_woodsworth

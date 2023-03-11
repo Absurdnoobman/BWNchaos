@@ -443,8 +443,8 @@ set_politics = {
 }
 set_popularities = {
 	conservative = 70
-	social_democracy = 23
-	liberal_democracy = 5
+	social_democracy = 25
+	liberal_democracy = 3
 	fascism = 1
 	communism = 1
 }
@@ -473,6 +473,7 @@ recruit_character = ENG_red_piyaphong
 recruit_character = ENG_gray_scale_piyaphong
 
 recruit_character = ENG_john_bercow
+recruit_character = ENG_lindsay_hoyle
 
 recruit_character = ENG_winston_churchill
 recruit_character = ENG_alan_brooke
