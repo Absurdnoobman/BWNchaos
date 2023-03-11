@@ -10,16 +10,73 @@ characters={
 		gender = male
 		advisor = {
 			slot = opposition_leader
+			idea_token = CAN_thitiwut_sowapark
 			available = {
 				NOT = {
 					has_government = liberal_democracy
 				}
-				party_popularity_100@liberal_democracy < party_popularity_100@ruling_party
-				party_popularity_100@liberal_democracy = highest_party_popularity@exclude_ruling_party
+				AND = {
+					check_variable = {
+						var = highest_party_popularity@exclude_ruling_party
+						value = party_popularity@liberal_democracy
+						compare = equals
+					}
+					liberal_democracy < party_popularity@ruling_party	
+				}
 			}
+			visible = {
+				has_elections = yes
+			}
+			ai_will_do = {
+				factor = 0
+			}
+			traits={ opposition }
+			cost = 0
+			can_be_fired = no
 		}
 		country_leader={
 			ideology = can_liberal_dem
+			id=-1
+		}
+	}
+
+	CAN_pierre_poilievre={
+		name=CAN_pierre_poilievre
+		portraits={
+			civilian={
+				large=GFX_CAN_pierre_poilievre
+				small=GFX_CAN_pierre_poilievre_small
+			}
+		}
+		gender = male
+		advisor = {
+			slot = opposition_leader
+			idea_token = CAN_pierre_poilievre
+			available = {
+				NOT = {
+					has_government = conservative
+				}
+				AND = {
+					check_variable = {
+						var = highest_party_popularity@exclude_ruling_party
+						value = party_popularity@conservative
+						compare = equals
+					}
+					conservative < party_popularity@ruling_party	
+				}
+			}
+			visible = {
+				has_elections = yes
+			}
+			ai_will_do = {
+				factor = 0
+			}
+			traits={ opposition }
+			cost = 0
+			can_be_fired = no
+		}
+		country_leader={
+			ideology = can_conservative
 			id=-1
 		}
 	}
@@ -34,11 +91,12 @@ characters={
 		}
 		advisor = {
 			slot = speaker
+			idea_token = CAN_geoff_regan
 			allowed = {
 				has_elections = yes
 			}
 			cost = 1
-			removal_cost = -1
+			can_be_fired = no
 			traits = { speaker_trait }
 		}
 	}

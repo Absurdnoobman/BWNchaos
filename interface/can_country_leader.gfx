@@ -7,4 +7,12 @@ spriteTypes = {
     	name = GFX_CAN_thitiwut_sowapark_small
     	texturefile = gfx/ideas/lower_house/CAN/small_thitiwut_sowapark.dds
 	}
+	spriteType = {
+    	name = GFX_CAN_pierre_poilievre
+    	texturefile = gfx/leaders/CAN/large_pierre_poilievre.dds
+	}
+	spriteType = {
+    	name = GFX_CAN_pierre_poilievre_small
+    	texturefile = gfx/ideas/lower_house/CAN/small_pierre_poilievre.dds
+	}
 }

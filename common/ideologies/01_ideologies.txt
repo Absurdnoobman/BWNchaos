@@ -9,6 +9,8 @@ ideologies = {
 			}
 			uk_conservative = {
 			}
+			can_conservative = {
+			}
 		}
 
 		dynamic_faction_names = {

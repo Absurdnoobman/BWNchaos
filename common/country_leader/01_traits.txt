@@ -33,6 +33,7 @@ leader_traits = {
         random = no
     }
     speaker_trait = {
+        sprite = 13
         random = no
         stability_gain_factor = 0.05
     }

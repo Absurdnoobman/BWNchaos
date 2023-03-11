@@ -57,6 +57,7 @@ characters = {
 		gender = male
 		advisor = {
 			slot = opposition_leader
+			idea_token = ENG_piyaphong_artsuek
 			available = {
 				NOT = {
 					has_government = conservative
@@ -98,6 +99,7 @@ characters = {
 		gender = male
 		advisor = {
 			slot = opposition_leader
+			idea_token = ENG_john_attlee
 			available = {
 				NOT = {
 					has_government = social_democracy
@@ -139,6 +141,7 @@ characters = {
 		gender = male
 		advisor = {
 			slot = opposition_leader
+			idea_token = ENG_rick_astley
 			available = {
 
 				NOT = {
@@ -180,6 +183,7 @@ characters = {
 		}
 		advisor = {
 			slot = speaker
+			idea_token = ENG_john_bercow
 			allowed = {
 				has_elections = yes
 			}
@@ -199,6 +203,7 @@ characters = {
 		}
 		advisor = {
 			slot = speaker
+			idea_token = ENG_lindsay_hoyle
 			allowed = {
 				has_elections = yes
 			}
