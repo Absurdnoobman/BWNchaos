@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = GFX_ENG_liz_truss_small
+		texturefile = gfx/ideas/lower_house/ENG/small_liz_truss.dds
+	}
+}

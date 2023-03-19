@@ -241,6 +241,28 @@ characters = {
 		}
 	}
 
+	ENG_liz_truss = {
+		name = ENG_liz_truss
+		portraits = {
+			civilian = {
+				large = GFX_ENG_liz_truss
+				small = GFX_ENG_liz_truss_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ENG_liz_truss
+			allowed = {
+				has_government = conservative
+			}
+			traits = { liz_foreign_secretary }
+			cost = 150
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
 	ENG_neville_chamberlain={
 		name=ENG_neville_chamberlain
 		portraits={

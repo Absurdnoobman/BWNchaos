@@ -41,6 +41,20 @@ leader_traits = {
         sprite = 13
         random = no
     }
+
+    liz_foreign_secretary = {
+        sprite = 13
+        production_speed_dockyard_factor = 0.2
+        faction_trade_opinion_factor = 1
+        guarantee_cost = 0.9
+        opinion_gain_monthly = 5
+        opinion_gain_monthly_same_ideology_factor = 0.3
+        embargo_threshold_factor = 0.95
+        embargo_cost_factor = 0.7
+        ai_call_ally_desire_factor = 0.7
+        fascism_acceptance = -100
+        communism_acceptance = -100
+    }
     
     #booster
     conservative_booster = {
