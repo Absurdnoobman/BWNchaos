@@ -243,6 +243,7 @@ characters = {
 
 	ENG_liz_truss = {
 		name = ENG_liz_truss
+		male = female
 		portraits = {
 			civilian = {
 				large = GFX_ENG_liz_truss
