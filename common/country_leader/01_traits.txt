@@ -55,6 +55,15 @@ leader_traits = {
         fascism_acceptance = -100
         communism_acceptance = -100
     }
+
+    civil_engineer = {
+        sprite = 13
+        global_building_slots_factor = 0.15
+        production_speed_infrastructure_factor = 0.4
+        production_speed_rail_way_factor = 0.65
+        production_speed_industrial_complex_factor = 0.05
+        consumer_goods_factor = 0.1
+    }
     
     #booster
     conservative_booster = {

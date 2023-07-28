@@ -476,6 +476,7 @@ recruit_character = ENG_john_bercow
 recruit_character = ENG_lindsay_hoyle
 
 recruit_character = ENG_liz_truss
+recruit_character = ENG_civil_engi_piyaphong_artsuek
 
 recruit_character = ENG_winston_churchill
 recruit_character = ENG_alan_brooke
