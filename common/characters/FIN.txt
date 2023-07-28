@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology = technocrat
+			ideology = progressive
 			traits = { engineer_ai }
 			id=-1
 		}

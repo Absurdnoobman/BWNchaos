@@ -129,8 +129,6 @@ ideologies = {
 		types = {
 			progressive = {
 			}
-			technocrat = {
-			}
 			can_liberal_dem ={
 			}
 		}
