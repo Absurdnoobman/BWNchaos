@@ -1,13 +1,13 @@
 # Pointless Broken MOD
-This mod is still **in development** and it can in hoi 4 base game but it might breake some focus tree in base game with no DLC.
+This mod is still **in development** and it can run in hoi 4 base game but it might breaks some focus tree in base game without DLC.
 
 # BWNchaos
 
-HOI 4 MOD
+HOI 4 MOD for meme with my classmates
 
 # Disclaimer 
 
 This mod is **NOT** want to disrespect or hurt everyone emotionally.  
 
-This mod is created for improve my team coding skill and experimental purposes **only**.
+This mod is created for personal development and experimental purposes **only**.
 
