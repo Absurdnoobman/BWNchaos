@@ -1,12 +1,12 @@
 version="0.0.0.0011"
 tags={
-	"Alternative History"
-	"Gameplay"
 	"Ideologies"
+	"Gameplay"
+	"Alternative History"
 	"National Focuses"
-	"Map"
 	"Technologies"
-	"Graphics"
+	"Military"
+	"Events"
 }
 name="Boonwattana Chaos"
 supported_version="1.13.*"

@@ -1,7 +1,7 @@
 ﻿l_english:
- conservative_booster:0 "Liberal Conservative Politician"
- social_democracy_booster:0 "Social Democrat Politician"
- liberal_democracy_booster:0 "Liberal Democrat Politician"
+ conservative_booster:0 "Liberal Conservative backbencher"
+ social_democracy_booster:0 "Social Democrat backbencher"
+ liberal_democracy_booster:0 "Liberal Democrat backbencher"
  lower_house:0 "Lower House"
  opposition_leader:0 "Leader of the Opposition"
  speaker:0 "Speaker of The House"

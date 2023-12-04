@@ -264,6 +264,32 @@ characters = {
 		}
 	}
 
+	ENG_civil_engi_piyaphong_artsuek = {
+		name = ENG_piyaphong_artsuek
+		male = male
+		portraits = {
+			civilian = {
+				small=GFX_ENG_civil_engi_piyaphong_artsuek_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ENG_civil_engi_piyaphong_artsuek
+			allowed = {
+				OR = {
+					has_government = liberal_democracy
+					has_government = social_democracy
+				}
+				
+			}
+			traits = { civil_engineer }
+			cost = 150
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
 	ENG_neville_chamberlain={
 		name=ENG_neville_chamberlain
 		portraits={

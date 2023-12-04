@@ -1185,7 +1185,8 @@
  programmer:0 "Programmer"
  intellectual:0 "Intellectual"
 
- liz_foreign_secretary:0 "Secretary of State for Foreign, Commonwealth and Development Affairs"
+ liz_foreign_secretary:0 "Secretary of State for Foreign"
+ civil_engineer:0 "Civil Engineer"
 
  speaker_trait:0 "The Speaker"
  opposition:0 "The Opposition"

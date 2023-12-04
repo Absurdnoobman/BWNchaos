@@ -3,4 +3,8 @@ spriteTypes = {
 		name = GFX_ENG_liz_truss_small
 		texturefile = gfx/ideas/lower_house/ENG/small_liz_truss.dds
 	}
+	spriteType = {
+		name = GFX_ENG_civil_engi_piyaphong_artsuek_small
+		texturefile = gfx/ideas/lower_house/ENG/small_civil_engi_piyaphong_artsuek.dds
+	}
 }
