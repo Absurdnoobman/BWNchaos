@@ -1,4 +1,4 @@
-version="0.0.0.0001"
+version="0.0.0.0011"
 tags={
 	"Alternative History"
 	"Gameplay"
@@ -9,4 +9,4 @@ tags={
 	"Graphics"
 }
 name="Boonwattana Chaos"
-supported_version="1.12.*"
+supported_version="1.13.*"
