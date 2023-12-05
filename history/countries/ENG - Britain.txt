@@ -117,9 +117,6 @@ recruit_character = ENG_lindsay_hoyle
 recruit_character = ENG_liz_truss
 recruit_character = ENG_civil_engi_piyaphong_artsuek
 
-
-
-
 ### Ship Variants ###
 
 if = {

@@ -1,0 +1,19 @@
+bookmarks = {
+	bookmark = {
+		name = bookmark_test_startingdate
+		desc = shit_happen
+		date = 5.5.5.5
+		picture = GFX_slect_date_1936
+		default = yes
+		default_country = BWN
+
+		BWN = {
+			minor = no
+		}
+
+		SOV = {
+
+		}
+
+	}
+}
