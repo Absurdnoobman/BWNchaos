@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+    	name = GFX_NPL_pawarit_bunmamorn
+    	texturefile = gfx/leaders/NPL/large_pawarit_bunmamorn.dds
+	}
+}

@@ -51,6 +51,9 @@ characters = {
 			idea_token = ENG_piyaphong_artsuek
 			available = {
 				NOT = {
+					is_country_leader = yes
+				}
+				NOT = {
 					has_government = conservative
 				}
 				AND = {
@@ -234,7 +237,7 @@ characters = {
 
 	ENG_liz_truss = {
 		name = ENG_liz_truss
-		male = female
+		gender = female
 		portraits = {
 			civilian = {
 				large = GFX_ENG_liz_truss
@@ -253,11 +256,16 @@ characters = {
 				factor = 0
 			}
 		}
+		country_leader={
+			ideology = uk_conservative
+			traits={ economic_reformer conservative_mp }
+			id=-1
+		}
 	}
 
 	ENG_civil_engi_piyaphong_artsuek = {
 		name = ENG_piyaphong_artsuek
-		male = male
+		gender = male
 		portraits = {
 			civilian = {
 				small=GFX_ENG_civil_engi_piyaphong_artsuek_small
@@ -281,21 +289,21 @@ characters = {
 		}
 	}
 
-	ENG_neville_chamberlain={
-		name=ENG_neville_chamberlain
-		portraits={
-			civilian={
-				large=GFX_portrait_ENG_neville_chamberlain
-			}
-		}
-		country_leader={
-			ideology=liberalism
-			traits = { chamberlain_appeaser rearmer }
-			expire="1965.1.1.1"
-			id=-1
-		}
+	# ENG_neville_chamberlain={
+	# 	name=ENG_neville_chamberlain
+	# 	portraits={
+	# 		civilian={
+	# 			large=GFX_portrait_ENG_neville_chamberlain
+	# 		}
+	# 	}
+	# 	country_leader={
+	# 		ideology=liberalism
+	# 		traits = { chamberlain_appeaser rearmer }
+	# 		expire="1965.1.1.1"
+	# 		id=-1
+	# 	}
 		
-	}
+	# }
 
 	ENG_horatio_dundas={
 		name=ENG_horatio_dundas

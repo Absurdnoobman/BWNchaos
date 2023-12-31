@@ -12,7 +12,15 @@ bookmarks = {
 		}
 
 		SOV = {
+			minor = no
+		}
 
+		ENG = {
+			minor = no
+		}
+
+		--- = {
+			minor = no
 		}
 
 	}

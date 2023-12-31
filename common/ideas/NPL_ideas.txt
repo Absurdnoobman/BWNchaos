@@ -1,0 +1,17 @@
+ideas = {
+	country = {
+		NPL_king_nopporn = {
+			picture = nopporn_idea
+			name = king_nopporn
+			modifier = {
+				stability_factor = 0.15
+			}
+			on_remove = {
+				add_stability = -0.05
+			}
+			cancel = {
+				has_civil_war = yes
+			}
+		}
+	}
+}

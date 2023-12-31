@@ -39,24 +39,24 @@ set_war_support = 0.1
 add_command_power = 20
 
 # Starting tech
-set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	tech_support = 1
-	tech_engineers = 1
-	tech_recon = 1
-	motorised_infantry = 1
-	gw_artillery = 1
-	interwar_antiair = 1
-	basic_train = 1
-	trench_warfare = 1
-	fleet_in_being = 1
-	electronic_mechanical_engineering = 1
-	radio = 1
-	radio_detection = 1
-	fuel_silos = 1
-	fuel_refining = 1
-}
+# set_technology = {
+# 	infantry_weapons = 1
+# 	infantry_weapons1 = 1
+# 	tech_support = 1
+# 	tech_engineers = 1
+# 	tech_recon = 1
+# 	motorised_infantry = 1
+# 	gw_artillery = 1
+# 	interwar_antiair = 1
+# 	basic_train = 1
+# 	trench_warfare = 1
+# 	fleet_in_being = 1
+# 	electronic_mechanical_engineering = 1
+# 	radio = 1
+# 	radio_detection = 1
+# 	fuel_silos = 1
+# 	fuel_refining = 1
+# }
 
 if = {
 	limit = {
@@ -75,35 +75,25 @@ if = {
 	}
 }
 
-set_variable = { var = eng_gateway_to_europe_influence value = 0 }
 
-add_ideas = {
-	stiff_upper_lip
-	ENG_the_war_to_end_all_wars
-	george_v
-}
-	
+set_convoys = 870
 
-set_convoys = 800
-
-
-set_politics = {
-	ruling_party = conservative
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes ##suspended through duration of war, which is handled via event
-}
-set_popularities = {
-	conservative = 70
-	social_democracy = 25
-	liberal_democracy = 3
-	fascism = 1
-	communism = 1
-}
+# set_politics = {
+# 	ruling_party = conservative
+# 	last_election = "1936.1.1"
+# 	election_frequency = 50
+# 	elections_allowed = yes ##suspended through duration of war, which is handled via event
+# }
+# set_popularities = {
+# 	conservative = 70
+# 	social_democracy = 25
+# 	liberal_democracy = 3
+# 	fascism = 1
+# 	communism = 1
+# }
 
 #give_guarantee = CZE
 
-# Order matters - here Chamberlain becomes starting leader
 recruit_character = ENG_piyaphong_artsuek
 recruit_character = ENG_john_attlee
 recruit_character = ENG_rick_astley
@@ -193,7 +183,7 @@ if = {
 			ship_armor_upgrade = 3
 			ship_gun_upgrade = 3
 		}
-
+	}
 	# Battlecruisers #
 	create_equipment_variant = {
 		name = "Admiral Class"
@@ -229,4 +219,54 @@ if = {
 		}
 	}
 }
+
+5.5.5 = {
+	set_convoys = 870
+
+	set_stability = 0.6
+	set_war_support = 0.1
+	add_command_power = 20
+
+	add_ideas = {
+		ENG_king_gowit
+	}
+
+	create_faction = UV_fraction
+	ENG = {
+		add_to_fraction = NPL
+		add_to_fraction = AUS
+	}
+
+	set_politics = {
+		ruling_party = conservative
+		last_election = "5.1.1"
+		election_frequency = 50
+		elections_allowed = yes ##suspended through duration of war, which is handled via event
+	}
+	set_popularities = {
+		conservative = 70
+		social_democracy = 25
+		liberal_democracy = 3
+		fascism = 1
+		communism = 1
+	}
+
+	set_technology = {
+		infantry_weapons = 1
+		infantry_weapons1 = 1
+		tech_support = 1
+		tech_engineers = 1
+		tech_recon = 1
+		motorised_infantry = 1
+		gw_artillery = 1
+		interwar_antiair = 1
+		basic_train = 1
+		trench_warfare = 1
+		fleet_in_being = 1
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		fuel_silos = 1
+		fuel_refining = 1
+	}
 }

@@ -105,7 +105,7 @@ FIN = {
 	color = rgb { 205 212 228 }
 	color_ui = rgb { 255 255 255 }
 }
-IRE = {
+NPL = {
 	color = rgb { 80 159 90 }
 	color_ui = rgb { 104 207 117 }
 }

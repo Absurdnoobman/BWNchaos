@@ -16,17 +16,17 @@ characters = {
     }
 
 	# MEME leader
-	BWN_rick_astley = {
-		name = BWN_rick_astley
-		portraits = {
-			civilian = {
-				large = GFX_BWN_rick_astley
-			}
-		}
-		gender = male
-		country_leader = {
-			ideology = progressive
-			traits = { never_give_up }
-		}
-	}
+	# BWN_rick_astley = {
+	# 	name = BWN_rick_astley
+	# 	portraits = {
+	# 		civilian = {
+	# 			large = GFX_BWN_rick_astley
+	# 		}
+	# 	}
+	# 	gender = male
+	# 	country_leader = {
+	# 		ideology = progressive
+	# 		traits = { never_give_up }
+	# 	}
+	# }
 }

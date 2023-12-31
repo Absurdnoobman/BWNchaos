@@ -1,0 +1,17 @@
+ideas = {
+	country = {
+		ENG_king_gowit = {
+			picture = gowit_idea
+			name = king_gowit
+			modifier = {
+				stability_factor = 0.15
+			}
+			on_remove = {
+				add_stability = -0.05
+			}
+			cancel = {
+				has_civil_war = yes
+			}
+		}
+	}
+}

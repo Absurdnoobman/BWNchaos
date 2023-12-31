@@ -1,0 +1,5 @@
+ENG_executive_category = {
+	allowed = {
+		original_tag = ENG
+	}
+}
