@@ -41,4 +41,8 @@ spriteTypes = {
     	name = GFX_ENG_gray_scale_piyaphong
     	texturefile = gfx/leaders/ENG/large_piyaphong_artsuek_gray_scale.dds
 	}
+	spriteType = {
+    	name = GFX_ENG_liz_truss
+    	texturefile = gfx/leaders/ENG/large_liz_truss.dds
+	}
 }

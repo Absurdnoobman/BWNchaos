@@ -10,7 +10,7 @@ ENG_executive_category = {
 			retire_country_leader = yes
 		}
 	}
-	ENG_dissolve_parliament = {
+	ENG_disslove_parliament = {
 		cost = 200
 		days_re_enable = 1050
 		complete_effect = {

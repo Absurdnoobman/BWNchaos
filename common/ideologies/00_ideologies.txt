@@ -8,8 +8,10 @@ ideologies = {
 			slightly_conservative = {
 			}
 			uk_conservative = {
+				can_be_randomly_selected = no
 			}
 			can_conservative = {
+				can_be_randomly_selected = no
 			}
 		}
 
@@ -70,6 +72,7 @@ ideologies = {
 			labour = {
 			}
 			uk_labour = {
+				can_be_randomly_selected = no
 			}
 		}
 
@@ -130,6 +133,7 @@ ideologies = {
 			progressive = {
 			}
 			can_liberal_dem ={
+				can_be_randomly_selected = no
 			}
 		}
 

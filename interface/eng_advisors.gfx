@@ -7,4 +7,8 @@ spriteTypes = {
 		name = GFX_ENG_civil_engi_piyaphong_artsuek_small
 		texturefile = gfx/ideas/lower_house/ENG/small_civil_engi_piyaphong_artsuek.dds
 	}
+	spriteType = {
+		name = GFX_ENG_teacher_nopporn_small
+		texturefile = gfx/ideas/theorist/ENG/small_teacher_nopporn.dds
+	}
 }

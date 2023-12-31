@@ -63,6 +63,9 @@ leader_traits = {
         production_speed_rail_way_factor = 0.65
         production_speed_industrial_complex_factor = 0.05
         consumer_goods_factor = 0.1
+        ai_will_do = {
+            base = 5
+        }
     }
     
     #booster

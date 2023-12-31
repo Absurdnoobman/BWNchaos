@@ -247,7 +247,7 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = ENG_liz_truss
-			allowed = {
+			available = {
 				has_government = conservative
 			}
 			traits = { liz_foreign_secretary }
@@ -264,17 +264,17 @@ characters = {
 	}
 
 	ENG_civil_engi_piyaphong_artsuek = {
-		name = ENG_piyaphong_artsuek
+		name = ENG_civil_engi_piyaphong_artsuek
 		gender = male
 		portraits = {
 			civilian = {
-				small=GFX_ENG_civil_engi_piyaphong_artsuek_small
+				small = GFX_ENG_civil_engi_piyaphong_artsuek_small
 			}
 		}
 		advisor = {
 			slot = political_advisor
 			idea_token = ENG_civil_engi_piyaphong_artsuek
-			allowed = {
+			available = {
 				OR = {
 					has_government = liberal_democracy
 					has_government = social_democracy
@@ -283,6 +283,27 @@ characters = {
 			}
 			traits = { civil_engineer }
 			cost = 150
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	ENG_teacher_nopporn = {
+		name = ENG_teacher_nopporn
+		gender = male
+		portraits = {
+			civilian = {
+				small = GFX_ENG_teacher_nopporn_small
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = ENG_teacher_nopporn
+			cost = 150
+			traits = {
+				military_theorist
+			}
 			ai_will_do = {
 				factor = 0
 			}
