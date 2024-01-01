@@ -300,7 +300,20 @@ characters = {
 		advisor = {
 			slot = theorist
 			idea_token = ENG_teacher_nopporn
+			ledger = army
 			cost = 150
+			available = {
+				OR = {
+					has_government = liberal_democracy
+					has_government = social_democracy
+					has_government = conservative
+					has_idea = ENG_king_gowit
+				}
+				NOT = {
+					has_elections = no
+				}
+				
+			}
 			traits = {
 				military_theorist
 			}
